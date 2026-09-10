@@ -81,8 +81,8 @@ export default function Home() {
     <div className="flex flex-1 justify-center bg-zinc-50 px-4 py-12 dark:bg-black sm:px-6">
       <main className="w-full max-w-2xl">
         <header className="mb-8 text-center">
-          <h1 className="text-3xl font-semibold tracking-tight text-zinc-900 dark:text-zinc-50">
-            ระบบบันทึกข้อมูลผู้ติดต่อ
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50">
+            ระบบบันทึกข้อมูลผู้ติดต่อ V.2
           </h1>
           <p className="mt-2 text-sm text-zinc-500 dark:text-zinc-400">
             เพิ่ม แก้ไข และจัดการรายชื่อผู้ติดต่อของคุณ
@@ -138,7 +138,7 @@ export default function Home() {
           <button
             type="submit"
             disabled={saving}
-            className="mt-5 w-full rounded-lg bg-zinc-900 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-zinc-700 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-200 sm:w-auto"
+            className="mt-5 w-full rounded-lg bg-green-600 px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-green-700 disabled:cursor-not-allowed disabled:opacity-60 dark:bg-green-600 dark:hover:bg-green-500 sm:w-auto"
           >
             {saving ? "กำลังบันทึก..." : "บันทึก"}
           </button>
